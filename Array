@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test array</title>
+</head>
+<body>
+<?php
+//test array
+$hari = array(8=>"Senin","Selasa","Rabu","Kamis","Jumat","Sabtu","Minggu");
+print "Hari yang ke 8 adalah ".$hari[8]."<br/><br/>";
+
+//test array 1 dimensi
+$siswa = array(
+"nama"=>"tiktakto",
+"umur"=>"17 tahun",
+"pekerjaan"=>"sapu jagad");
+print "Nama mahasiswa itu adalah ".$siswa['nama']."<br/>Berumur = ".$siswa['umur']."
+<br/>dan mempunyai pekerjaan sebagai ".$siswa['pekerjaan']."<br/><br/>";
+//test array 2 dimensi
+$siswa = array(
+array("nama"=>"tiktakto",
+"umur"=>"17 tahun",
+"pekerjaan"=>"sapu jagad"),
+array("nama"=>":",
+"umur"=>"16 tahun",
+"pekerjaan"=>"IT"));
+print "Nama mahasiswa ini adalah ".$siswa[1]['nama']."<br/><br/>";
+
+
+$bulan_lahir = array("f1"=>
+array(
+"nama"=>"Bambank",
+"bulan"=>"april"
+),
+array(
+"nama"=>"sisi",
+"bulan"=>"sabit"
+),
+array(
+"nama"=>"ulan",
+"bulan"=>"januari"
+),
+);
+print $bulan_lahir['f1']['nama']."<br/>";
+
+//other model 2 f2
+
+?>
+
+</body>
+</html>
